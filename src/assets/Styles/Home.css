@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#Home  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section1{
+    background-image: url('./../Images/img.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -200px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+}
+
+#section2{
+    width: 80%;
+    height: 500px;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+
+#section3{
+    width: 80%;
+    height: 500px;
+    border: solid 1px black;
+    background-color: aliceblue;
+}
+
+#section1 {
+    filter: blur(0rem);
+    animation: section1 1s linear;
+  }
+
+  @keyframes img {
+    0% {
+        filter: blur(0rem);
+    }
+    100% {
+        filter: blur(1rem);
+    }
+  }
+
+:root * {
+    /* Pause the animation */
+    animation-play-state: paused;
+    /* Bind the animation to scroll */
+    animation-delay: calc(var(--scroll) * -1s);
+    /* These last 2 properites clean up overshoot weirdness */
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+  }
