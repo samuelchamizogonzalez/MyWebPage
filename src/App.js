@@ -6,6 +6,7 @@ import MyCV from './pages/MyCV';
 import Resources from './pages/Resources';
 import Documentation from './pages/Documentation';
 import Proyects from './pages/Proyects';
+import TaskManager from './components/taskmanager/TaskManager';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Welcome/>}/>
-        {/*<Route path='/Home' element={<Home/>}/>
-        <Route path='/AboutMe' element={<AbouTMe/>}/>
+        <Route path='/Home' element={<Home/>}/>
+        <Route path='/TaskManager' element={<TaskManager/>}/>
+        {/*<Route path='/AboutMe' element={<AbouTMe/>}/>
         <Route path='/MyCV' element={<MyCV/>}/>
         <Route path='/Resources' element={<Resources/>}>
           <Route path='/Resources/Documentation' element={<Documentation/>}/>

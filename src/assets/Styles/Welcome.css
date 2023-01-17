@@ -3,7 +3,7 @@
     src: url('./../Fonts/Quicksand/Quicksand-Regular.otf');
   }
 
-*{
+#welcome{
     margin: 0px;
     padding: 0px;
     color:white;
