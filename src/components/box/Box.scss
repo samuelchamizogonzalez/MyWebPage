@@ -1,11 +1,6 @@
-#taskmanager{
+#box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:5em;
+    border: solid 1px black;
 }
-
-#calendar{
-    width: 40%;
-}
-

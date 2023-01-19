@@ -3,30 +3,22 @@
     src: url('./../Fonts/Quicksand/Quicksand-Regular.otf');
   }
 
-#welcome{
+#Welcome{
+
     margin: 0px;
     padding: 0px;
-    color:white;
     font-family: font;
-}
 
-h3 {
-    opacity: 50%;
+    h1{
+        padding: 0.4em;
+        color: white;
+    }
+    h3 {
+        opacity: 50%;
+        color: white;
+    }
+    
 }
-
-h1{
-    padding: 0.4em;
-}
-
-#Welcome  {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .background{
     position: fixed;

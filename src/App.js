@@ -7,6 +7,7 @@ import Resources from './pages/Resources';
 import Documentation from './pages/Documentation';
 import Proyects from './pages/Proyects';
 import TaskManager from './components/taskmanager/TaskManager';
+import './assets/Styles/App.css';
 
 function App() {
   return (

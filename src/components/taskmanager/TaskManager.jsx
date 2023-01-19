@@ -1,9 +1,10 @@
 import * as React from 'react';
+import './TaskManager.scss';
 import { styled } from '@mui/material/styles';
-import Box from './box/Box';
+import Box from '../box/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import "./TaskManager.css";
+
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -16,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 function TaskManager() {
   return (
-    <div id="taskmanager">
+    <div id="taskmanager-container">
       <h1>Organizador de tareas</h1>
       
       <div id="calendar">
@@ -68,6 +69,7 @@ function TaskManager() {
           </Grid>
         </Grid>
       </div>
+      <Box className="box" height="100" width="800"/>
     </div>
   );
 }

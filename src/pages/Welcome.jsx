@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import './../assets/Styles/Welcome.css'
+import './../assets/Styles/Welcome.scss'
 import Github_icon from "./../assets/Images/github_icon.png"
 import Linkedin_icon from "./../assets/Images/linkedin_icon.png"
 import { wait } from "@testing-library/user-event/dist/utils";
