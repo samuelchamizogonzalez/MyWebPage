@@ -11,7 +11,7 @@ function Welcome() {
  }, [])
 
   return (
-    <div id="Welcome">
+    <div id="welcome">
       <div className="background"></div>  
       <div className="info">
         <h3>Hi !</h3>

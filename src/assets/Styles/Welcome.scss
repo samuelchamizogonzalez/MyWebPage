@@ -3,11 +3,14 @@
     src: url('./../Fonts/Quicksand/Quicksand-Regular.otf');
   }
 
-#Welcome{
-
-    margin: 0px;
-    padding: 0px;
+#welcome{
     font-family: font;
+    position: fixed;
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     h1{
         padding: 0.4em;
@@ -17,57 +20,56 @@
         opacity: 50%;
         color: white;
     }
+
+    .background{
+        position: fixed;
+        z-index: -1;
+        left: -1em;
+        top: -1em;
+        height: 103%;
+        width: 102%;
+        background-image: url('./../Images/img.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        filter: blur(0.4rem);
+    }
     
-}
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30em;
+        width: 70em;}
+    
+        .icons_container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10em;
+            width: 10em;
+        }
+        
+        img {
+            height: 2em;
+            width: 2em;
+            transition: ease 0.1s;
+        }
+        
+        img:hover{
+            transform: scale(1.2);
+        }
+        
+        .fade_in {
+            transition: ease 5s;
+            opacity: 0%;
+          }
+        
+        .fade_in:hover{
+            transition: ease 1s;
+            transform: scale(1.2);
+            opacity: 100%;
+        }
+    }
 
-.background{
-    position: fixed;
-    left: -1em;
-    top: -1em;
-    height: 103%;
-    width: 102%;
-    background-image: url('./../Images/img.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    filter: blur(0.4rem);
-}
 
-
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    height: 30em;
-    width: 70em;
-}
-
-.icons_container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10em;
-    width: 10em;
-}
-
-img {
-    height: 2em;
-    width: 2em;
-    transition: ease 0.1s;
-}
-
-img:hover{
-    transform: scale(1.2);
-}
-
-.fade_in {
-    transition: ease 5s;
-    opacity: 0%;
-  }
-
-.fade_in:hover{
-    transition: ease 1s;
-    transform: scale(1.2);
-    opacity: 100%;
-}

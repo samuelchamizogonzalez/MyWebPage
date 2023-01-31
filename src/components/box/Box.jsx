@@ -7,11 +7,8 @@ function Box(props) {
     document.getElementById("box").style.width = props.width+"px";
   }, []);
 
-
-
   return (
     <div id="box">
-
       <p>SOY UN COMPONENTE</p>
     </div>
   );
