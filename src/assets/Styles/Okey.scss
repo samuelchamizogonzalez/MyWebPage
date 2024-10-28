@@ -14,7 +14,7 @@
 
     h1{
         font-size: 100px !important;
-        padding: 0.2em;
+        padding: 0.0em;
         color: white;
     }
     h3 {
@@ -44,22 +44,18 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 30em;
-        width: 70em;}
+        height: 35em;
+        width: 70em;
     
-        .icons_container{
-            border: black solid 2px;
-
+        .isotipo{
             display:flex;
             justify-content: center;
             align-items: center;
-            height: 3em;
+            height: 15em;
             width: 10em;
         }
         
         img {
-            border: black solid 2px;
-            margin: 0px;
             transition: ease 0.1s;
         }
         
@@ -96,3 +92,14 @@
             }
         }
     }
+
+    .icons_container{
+        position: fixed;
+        bottom: 15px;
+        width: 100%; 
+        height: 6%;
+    }
+    .div_insta{
+        position: fixed;
+    }
+}
