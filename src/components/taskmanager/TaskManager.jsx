@@ -1,8 +1,5 @@
 import * as React from "react";
 import "./TaskManager.scss";
-import { styled } from "@mui/material/styles";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
 
 //Funcion que cree un div con la altura que necesite dependiendo del tiempo que dure la tarea. Se podría crear variables con el pixel en el que empieza cada hora.
 

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Navbar  from "../layout/navbar/Navbar";
 import './../assets/Styles/AboutMe.css'
 
@@ -14,6 +13,8 @@ window.addEventListener('scroll', () => {
 function AboutMe() {
   return (
     <div id="AboutMe">
+      <div id="section1"><Navbar/></div>
+
       <h1>About Me Page</h1>
 
       <div class="progress"></div>

@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import './Navbar.css';
 
 function Navbar() {
@@ -10,6 +9,7 @@ function Navbar() {
         <a href="/Proyects/">Proyectos</a>
         <a href="/Resources/">Recursos</a>
         <a href="/AboutMe/">¿Quién soy?</a>
+        <a href="/ExtraHoursCalculator/">Calculadora de horas</a>
       </nav>
     </div>
   );

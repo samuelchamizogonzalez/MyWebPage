@@ -1,6 +1,6 @@
 @font-face {
     font-family: font;
-    src: url('./../Fonts/Quicksand/Quicksand-Regular.otf');
+    src: url('./../Fonts/Safiro/Safiro-Regular.otf');
   }
 
 #welcome{
@@ -13,7 +13,8 @@
     align-items: center;
 
     h1{
-        padding: 0.4em;
+        font-size: 100px !important;
+        padding: 0.2em;
         color: white;
     }
     h3 {
@@ -28,7 +29,7 @@
             top: -1em;
             height: 103%;
             width: 102%;
-            background-image: url('./../Images/img.jpg');
+            background-image: url('./../Images/Degradado\ 1.png');
             background-repeat: no-repeat;
             background-size: 100%;
             filter: blur(0.4rem);
@@ -47,16 +48,18 @@
         width: 70em;}
     
         .icons_container{
-            display: flex;
+            border: black solid 2px;
+
+            display:flex;
             justify-content: center;
             align-items: center;
-            height: 10em;
+            height: 3em;
             width: 10em;
         }
         
         img {
-            height: 2em;
-            width: 2em;
+            border: black solid 2px;
+            margin: 0px;
             transition: ease 0.1s;
         }
         
@@ -82,7 +85,7 @@
                 z-index: -1;
                 height: 100%;
                 width: 102%;
-                background-image: url('./../Images/img.jpg');
+                background-image: url('./../Images/Degradado\ 1.png');
                 background-repeat: inherit;
                 filter: blur(0.3rem);
             }
