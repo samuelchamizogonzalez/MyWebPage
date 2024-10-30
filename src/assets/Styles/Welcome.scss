@@ -16,10 +16,12 @@
         padding: 0.4em;
         color: white;
     }
+
     h3 {
         opacity: 50%;
         color: white;
     }
+
     @media (min-width: 1500px){
         .background{
             position: fixed;
@@ -34,17 +36,14 @@
             filter: blur(0.4rem);
         }
     }
-    
-
         
-    
     .info{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 30em;
-        width: 70em;}
+        width: 70em;
     
         .icons_container{
             display: flex;
@@ -93,3 +92,4 @@
             }
         }
     }
+}

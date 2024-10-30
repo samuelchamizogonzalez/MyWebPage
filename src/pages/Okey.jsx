@@ -10,7 +10,7 @@ function Okey() {
  }, [])
 
   return (
-    <div id="welcome">
+    <div id="okey">
       <div className="background"></div>  
       <div className="info">
         <div className="Isotipo">

@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
-import './../assets/Styles/Welcome.scss'
-//import Github_icon from "./../assets/Images/github_icon.png"
+import './../assets/Styles/Welcome.scss';
 import Linkedin_icon from "./../assets/Images/linkedin_icon.png"
 
 function Welcome() {
